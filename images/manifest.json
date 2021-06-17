@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 2226,
+    "id" : "https://kafkamono.github.io/Imp_Rus_det_stories/images/shevlyakov_spine/canvas/",
+    "label" : {
+      "none" : [ "shevlyakov_spine" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://kafkamono.github.io/Imp_Rus_det_stories/images/shevlyakov_spine/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://kafkamono.github.io/Imp_Rus_det_stories/images/shevlyakov_spine/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 70,
+              "height" : 250
+            }, {
+              "width" : 140,
+              "height" : 500
+            }, {
+              "width" : 279,
+              "height" : 1000
+            }, {
+              "width" : 557,
+              "height" : 2000
+            }, {
+              "width" : 1113,
+              "height" : 4000
+            }, {
+              "width" : 2226,
+              "height" : 8000
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 2226,
+            "@id" : "https://kafkamono.github.io/Imp_Rus_det_stories/images/shevlyakov_spine",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 8000
+          } ],
+          "format" : "image/jpeg",
+          "width" : 2226,
+          "id" : "https://kafkamono.github.io/Imp_Rus_det_stories/images/shevlyakov_spine/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 8000
+        },
+        "target" : "https://kafkamono.github.io/Imp_Rus_det_stories/images/shevlyakov_spine/canvas/"
+      } ]
+    } ],
+    "height" : 8000
+  }, {
     "width" : 8000,
     "id" : "https://kafkamono.github.io/Imp_Rus_det_stories/images/shevlyakov_title/canvas/",
     "label" : {
