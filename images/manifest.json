@@ -1,0 +1,73 @@
+{
+  "id" : "https://kafkamono.github.io/Imp_Rus_det_stories/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in kafkamono/Imp_Rus_det_stories project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 8000,
+    "id" : "https://kafkamono.github.io/Imp_Rus_det_stories/images/IMG_20210617_130909/canvas/",
+    "label" : {
+      "none" : [ "IMG_20210617_130909" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://kafkamono.github.io/Imp_Rus_det_stories/images/IMG_20210617_130909/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://kafkamono.github.io/Imp_Rus_det_stories/images/IMG_20210617_130909/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 250,
+              "height" : 188
+            }, {
+              "width" : 500,
+              "height" : 375
+            }, {
+              "width" : 1000,
+              "height" : 750
+            }, {
+              "width" : 2000,
+              "height" : 1500
+            }, {
+              "width" : 4000,
+              "height" : 3000
+            }, {
+              "width" : 8000,
+              "height" : 6000
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 8000,
+            "@id" : "https://kafkamono.github.io/Imp_Rus_det_stories/images/IMG_20210617_130909",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 6000
+          } ],
+          "format" : "image/jpeg",
+          "width" : 8000,
+          "id" : "https://kafkamono.github.io/Imp_Rus_det_stories/images/IMG_20210617_130909/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 6000
+        },
+        "target" : "https://kafkamono.github.io/Imp_Rus_det_stories/images/IMG_20210617_130909/canvas/"
+      } ]
+    } ],
+    "height" : 6000
+  }, {
+    "id" : "https://kafkamono.github.io/Imp_Rus_det_stories/images/shevlyakov.json/canvas/",
+    "label" : {
+      "none" : [ "shevlyakov.json" ]
+    },
+    "type" : "Canvas",
+    "proccess_id" : "4cb921b0-eb70-4d29-97cb-36289d367168"
+  } ]
+}
